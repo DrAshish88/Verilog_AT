@@ -1,0 +1,78 @@
+$date
+	Thu Jun 29 12:26:21 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ALU_tb $end
+$var wire 1 ! Z $end
+$var wire 1 " S $end
+$var wire 1 # P $end
+$var wire 1 $ Ov $end
+$var wire 1 % Cout $end
+$var wire 16 & C [15:0] $end
+$var reg 16 ' A [15:0] $end
+$var reg 16 ( B [15:0] $end
+$scope module DUT $end
+$var wire 16 ) A [15:0] $end
+$var wire 16 * B [15:0] $end
+$var wire 1 ! Zero $end
+$var wire 1 " Sign $end
+$var wire 1 # Parity $end
+$var wire 1 $ Overflow $end
+$var wire 1 % Carry $end
+$var wire 16 + C [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+0$
+0"
+0!
+0#
+b11100010010110 &
+b11100010010110 +
+0%
+b11010101001110 (
+b11010101001110 *
+b1101001000 '
+b1101001000 )
+#10
+1$
+b10011100100011 &
+b10011100100011 +
+b10010111111110 (
+b10010111111110 *
+b100100101 '
+b100100101 )
+#15
+0$
+1%
+1#
+b10001111011111 &
+b10001111011111 +
+b1110111100010010 (
+b1110111100010010 *
+b11010011001101 '
+b11010011001101 )
+#35
