@@ -1,3 +1,5 @@
+#a simple way of representing ALU (only adder operation is shown for simplicity)
+  
 module ALU(A,B,C,Sign,Zero,Parity,Carry,Overflow);
 input [15:0]A,B;
 output[15:0]C;
