@@ -1,3 +1,4 @@
+//This is how we can write the testbench for ALU(Adder operation only)
 `timescale 1ns/1ns
 `include "ALU.v"
 

@@ -1,3 +1,4 @@
+// This is how we can write a simple test bench for Halfadder
 `timescale 1ns/1ns
 `include "HA.v"
 

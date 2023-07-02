@@ -1,3 +1,4 @@
+//This is the example of ALU (only adder opertion is considered here)
 module ALU(A,B,C,Sign,Zero,Parity,Carry,Overflow);
 input [15:0]A,B;
 output[15:0]C;

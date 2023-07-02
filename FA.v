@@ -1,3 +1,4 @@
+// This is the code for Fulladder using its behavioral/dataflow style
 module FA(A,B,C,Sum,Carry);
 input A,B,C;
 output Sum,Carry;

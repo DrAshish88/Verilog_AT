@@ -1,3 +1,4 @@
+// This is how we can write a simple test bench for Fulladder
 `timescale 10ns/1ns
 `include "FA.v"
 

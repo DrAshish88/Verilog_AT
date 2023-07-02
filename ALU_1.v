@@ -1,3 +1,4 @@
+//This is the example which shows how we can instantiate modules, this is also ALU showing the operation of Adder only but adders are instantiated from its structures. This is actually mixed modeling where some part of the code is in behavioral and others are written in structural style.
 module ALU(A,B,C,Sign,Zero,Parity,Carry,Overflow);
 input [15:0]A,B;
 output[15:0]C;
